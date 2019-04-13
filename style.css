@@ -20,7 +20,7 @@ body {
     margin: 0;
 }
 
-.a-link {
+.a-link, .nav-link {
     padding-top: 5px;
     padding-left: 0;
     padding-right: 0;
