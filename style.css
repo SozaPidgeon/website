@@ -61,7 +61,7 @@ body {
 @media screen and (max-width: 1275px) {
     .column {
         flex: 50%;
-        max-width: 48%;
+        max-width: 47%;
         padding-left: auto;
         padding-right: auto;
     }
@@ -70,7 +70,7 @@ body {
 @media screen and (max-width: 675px) {
     .column {
         flex: 100%;
-        max-width: 96%;
+        max-width: 94%;
         padding-left: auto;
         padding-right: auto;
     }
@@ -80,11 +80,4 @@ body {
     text-align: center;
     border-bottom: 20px solid white;
     text-decoration: underline;
-}
-
-.about-column {
-    flex: 50%;
-    max-width: 30%;
-    padding: 0px 4px;
-    margin: 0;
 }
