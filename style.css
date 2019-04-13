@@ -1,6 +1,14 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif !important;
-    padding: 2% 2%;
+    /* padding: 2% 0;
+    margin-left: 3% !important;
+    margin-right: 3% !important; */
     margin-bottom: 6%;
     height: 100vh;
     color: black !important;
@@ -8,8 +16,21 @@ body {
 
 #header-title {
     text-align: center;
-    padding: 25px 0% 5px 0%;
+    padding-bottom: 5px;
     margin: 0;
+}
+
+.nav-link {
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#header {
+    padding: 4% 1%;
+    margin-top: 2px;
 }
 
 .footer-content {
@@ -37,21 +58,22 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0%;
-    margin: 0;
+    flex: 100%;
+    padding: 0 2%;
+    margin: 0 0;
     justify-content: center;
 }
 
 .column {
     flex: 25%;
-    max-width: 24%;
-    padding: 0px 4px;
+    max-width: 23%;
+    padding: 0px 5px;
     margin: 0;
 }
 
 .column img {
     margin-top: 8px;
-    padding: 0.5% 0.5%;
+    padding: 0.5% auto;
     vertical-align: middle;
     width: 100%;
 }
@@ -61,7 +83,7 @@ body {
 @media screen and (max-width: 1275px) {
     .column {
         flex: 50%;
-        max-width: 47%;
+        max-width: 46%;
         padding-left: auto;
         padding-right: auto;
     }
@@ -70,14 +92,8 @@ body {
 @media screen and (max-width: 675px) {
     .column {
         flex: 100%;
-        max-width: 94%;
+        max-width: 92%;
         padding-left: auto;
         padding-right: auto;
     }
-}
-
-.nav-link {
-    text-align: center;
-    border-bottom: 20px solid white;
-    text-decoration: underline;
 }
