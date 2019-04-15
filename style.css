@@ -25,6 +25,10 @@ body {
     margin: 0;
 }
 
+#content-about {
+    background-color: red;
+}
+
 .a-link, .nav-link {
     padding-top: 5px;
     padding-left: 0;
