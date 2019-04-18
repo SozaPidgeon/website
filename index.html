@@ -83,33 +83,6 @@
         <h6 id="footer-email" class="footer-content"><a href="mailto:inquiries@sorenpidgeon.com">inquiries@sorenpidgeon.com</a></h6>
     </div>
 
-    <script>
-
-        var lazy = [];
-        target = [];
-        lazy = document.getElementsByClassName('lazy');
-        console.log("There are " + (lazy.length) + " lazy elements");
-
-        var options = {
-            root: document.querySelector('window'),
-            rootMargin: '0px',
-            threshold: 0.0
-        }
-
-        var observer = new IntersectionObserver(handleIntersect, options);
-
-        var target = document.querySelector('.lazy');
-        observer.observe(target);
-
-        function handleIntersect(entries, observer) {
-            entries.forEach(function(entry) {
-
-                console.log("loaded image: " + entries.getElementsById);
-            });
-        }
-        
-    </script>
-
 </body>
 
 </html>
