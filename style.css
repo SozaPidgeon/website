@@ -9,13 +9,18 @@ html, body {
     max-width: 100%;
 }
 
-body {
+#body-home {
     font-family: 'Montserrat', sans-serif !important;
-    /* padding: 2% 0;
-    margin-left: 3% !important;
-    margin-right: 3% !important; */
     margin-bottom: 6%;
     height: 100vh;
+    color: black !important;
+}
+
+#body-about {
+    font-family: 'Montserrat',
+    sans-serif !important;
+    margin-bottom: 6%;
+    height: 100.5vh;
     color: black !important;
 }
 
