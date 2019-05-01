@@ -13,13 +13,14 @@ html, body {
 #body-home {
     font-family: 'Montserrat', sans-serif !important;
     height: 100vh;
+    margin-bottom: 0%;
     color: black !important;
 }
 
 #body-about {
     font-family: 'Montserrat',
     sans-serif !important;
-    margin-bottom: 6%;
+    margin-bottom: 0%;
     height: 100.5vh;
     color: black !important;
 }
