@@ -12,10 +12,8 @@ html, body {
 
 #body-home {
     font-family: 'Montserrat', sans-serif !important;
-    margin-bottom: 6%;
     height: 100vh;
     color: black !important;
-    margin-bottom: 0px !important;
 }
 
 #body-about {
