@@ -1,5 +1,9 @@
  /* stylesheet */
-
+@font-face {
+    font-family: 'Montserrat';
+    font-display: fallback;
+    src: local('Montserrat'), url(https://fonts.googleapis.com/css?family=Montserrat) format('Monserrat');
+}  
 html::-webkit-scrollbar {
     width: 0 !important
 }
