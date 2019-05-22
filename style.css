@@ -45,7 +45,7 @@ html, body {
     text-decoration: underline;
 }
 
-#header {
+header {
     padding: 4% 1%;
     margin-top: 2px;
 }
@@ -103,7 +103,7 @@ html, body {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 1275px) {
+@media (max-width: 1275px) {
     .column {
         flex: 50%;
         max-width: 46%;
@@ -112,7 +112,7 @@ html, body {
     }
 }
 
-@media screen and (max-width: 675px) {
+@media (max-width: 675px) {
     .column {
         flex: 100%;
         max-width: 92%;
