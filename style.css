@@ -48,7 +48,7 @@ body {
 }
 
 .column img {
-    margin: 5px;
+    margin: 5px 0;
     vertical-align: middle;
     width: 100%;
 }
