@@ -64,11 +64,19 @@ body {
     }
 }
 
-/* @media (max-width: 675px) {
-    .column {
+@media (max-width: 675px) {
+    /* .column {
         flex: 100%;
         max-width: 92%;
         padding-left: auto;
         padding-right: auto;
+    } */
+
+    #title {
+        font-size: 1em;
     }
-} */
+
+    #email {
+        font-size: 0.7em;
+    }
+}
