@@ -53,6 +53,12 @@ body {
     width: 100%;
 }
 
+.column video {
+    margin: 5px 0;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 @media (max-width: 1275px) {
