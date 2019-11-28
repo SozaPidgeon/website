@@ -19,11 +19,12 @@ body {
     padding-bottom: 5px;
 }
 
-#email {
+.navigation {
     padding-top: 5px;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
+
 
 .a-link, .nav-link {
     padding-top: 5px;
