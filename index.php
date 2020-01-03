@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="bs.css" defer/>
     <link rel="stylesheet" href="bs-grid.css" defer/>
     <link rel="shortcut icon" href="me.ico"/>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
