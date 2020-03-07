@@ -15,7 +15,7 @@ $(document).ready(function() {
 
         // make request
         $.ajax({
-            url: 'functionsIndex.php',
+            url: 'functions.php',
             type: 'GET', 
             data: {size : width},
             success: function(response) {
