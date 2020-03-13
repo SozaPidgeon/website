@@ -1,0 +1,19 @@
+ html::-webkit-scrollbar {
+    width: 0 !important
+}
+
+html, body {
+    font-family: 'Barlow' !important;
+    height: 100vh;
+    width: 100vw;
+    color: white !important;
+    background-color: black !important;
+    overflow-x: hidden;
+}
+
+#zine2007contents {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
