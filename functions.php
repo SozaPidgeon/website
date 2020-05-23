@@ -1,5 +1,5 @@
 <?php
-
+    $blocked = array();
     $t = '';
     if (isset($_GET['type']))
     {
@@ -30,9 +30,12 @@
             $i = $size;
             for ($i==$size;$i>0;$i--)
             {
-                if ($i%2 == 0)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    if ($i%2 == 0)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
                 }
             }
             echo('</div>');
@@ -40,9 +43,12 @@
             $i = $size;
             for ($i==$size;$i>0;$i--)
             {
-                if ($i%2 == 1)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    if ($i%2 == 1)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
                 }
             }
             echo('</div>');
@@ -54,9 +60,12 @@
             echo('<div class="column">');
             for ($i==$size;$i>0;$i--)
             {
-                if ($i%4 == 0)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    if ($i%4 == 0)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
                 }
             }
             echo('</div>');
@@ -65,9 +74,12 @@
             echo('<div class="column">');
             for ($i==$size;$i>0;$i--)
             {
-                if ($i% 4== 3)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    if ($i% 4== 3)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
                 }
             }
             echo('</div>');
@@ -76,9 +88,12 @@
             echo('<div class="column">');
             for ($i==$size;$i>0;$i--)
             {
-                if ($i%4 == 2)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    if ($i%4 == 2)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
                 }
             }
             echo('</div>');
@@ -87,10 +102,13 @@
             echo('<div class="column">');
             for ($i==$size;$i>0;$i--)
             {
-                if ($i%4 == 1)
+                if (!in_array($i, $blocked))
                 {
-                    echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
-                }
+                    if ($i%4 == 1)
+                    {
+                        echo('<img src="' . $t . $i . '.jpg" alt="image not found">');
+                    }
+                }    
             }
             echo('</div>');
         }
