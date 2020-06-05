@@ -1,5 +1,5 @@
 <?php
-    $blocked = array();
+    $blocked = array(120,119,118,117);
     $t = '';
     if (isset($_GET['type']))
     {
