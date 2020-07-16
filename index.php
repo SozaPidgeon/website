@@ -30,7 +30,6 @@
         <h2 id="title">Soren Pidgeon</h2>
         <h6 class="navigation"><a href="mailto:pidgeon.soren@gmail.com">Contact</a></h6>
         <h6 class="navigation"><a href="https://www.instagram.com/soza.pidgeon">Instagram</a></h6>
-        <h6 class="navigation"><a href="other.php">Other Shoots</a></h6>
         <div class="theme-switch-wrapper navigation">
             <label class="theme-switch" for="checkbox">
                 <input type="checkbox" id="checkbox" />
