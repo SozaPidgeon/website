@@ -21,8 +21,7 @@
 
     function drawMessage() {
         echo('<div class="underDev">');
-        echo('<h1>UNDER DEVELOPMENT, </h1>');
-        echo('<h1>PLEASE RETURN LATER</h1>');
+        echo('<h1>UNDER DEVELOPMENT, PLEASE RETURN LATER</h1>');
         echo('</div>');
     }
 
